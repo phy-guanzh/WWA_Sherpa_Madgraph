@@ -37,8 +37,8 @@
 (processes){
   %Process 93 93 -> 90 91 93{NJET};
   Process 93 93 -> 90 91 90 91 22{NJET};
-  Order (*,1); CKKW sqr(QCUT/E_CMS);
-  %NLO_QCD_Mode MC@NLO {LJET};
+  Order (*,2); CKKW sqr(QCUT/E_CMS);
+  NLO_QCD_Mode MC@NLO {LJET};
   ME_Generator Amegic {LJET};
   RS_ME_Generator Comix {LJET};
   Loop_Generator LOOPGEN {LJET};
